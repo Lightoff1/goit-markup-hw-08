@@ -36,7 +36,7 @@ body {
 /* #F5F4FA цвет фона секции "наша команда" и кнопки фильтров */
 /* rgba(255, 255, 255, 0.6) цвет e-mail и номера телефона футер */
 .container {
-  width: 100%;
+  width: 320px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -205,14 +205,12 @@ body {
 
 /* ----------------Особенности-------------------- */
 .features {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .feature {
   display: flex;
-  width: 270px;
-  height: 120px;
   align-items: center;
   justify-content: center;
   background-color: #f5f4fa;
@@ -235,14 +233,8 @@ body {
   margin-top: 30px;
 }
 
-.features-menu {
-  display: flex;
-}
-.features-menu .features-menu__item {
-  width: 270px;
-}
 .features-menu .features-menu__item:not(:last-child) {
-  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .each-feature__item {
