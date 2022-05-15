@@ -1,0 +1,155 @@
+/* ------------------Подвал------------------- */
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-list {
+  display: flex;
+}
+.logo-web-footer {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700px;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-studio-foot {
+  color: var(--tertiary-text-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.first-footer-list {
+  margin-right: 70px;
+}
+
+.adress {
+  color: var(--tertiary-text-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  .mail,
+  .phone {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+}
+.mail {
+  margin-bottom: 9px;
+}
+
+.second-footer-list-title {
+  color: var(--tertiary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+.our-soc-links-list {
+  display: flex;
+}
+.our-soc-link {
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  align-items: center;
+  justify-content: center;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+.our-soc-item + .our-soc-item {
+  margin-left: 10px;
+}
+.our-soc-icon {
+  fill: var(--tertiary-text-color);
+}
+/* --------------Форма подписки--------- */
+
+.form-email-footer-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-emeil-label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 12px;
+  margin-left: 93px;
+  margin-bottom: 20px;
+  color: var(--tertiary-text-color);
+}
+.form-emeil-input {
+  margin-left: 93px;
+  padding-left: 16px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+.form-submit-footer-lable {
+  position: relative;
+  display: flex;
+}
+.form-submit-btn {
+  margin-top: 48px;
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  padding-left: 0;
+  padding-right: 38px;
+  letter-spacing: 0.06em;
+  color: var(--tertiary-text-color);
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  outline: transparent;
+}
+.form-submit-footer-icon {
+  position: absolute;
+  bottom: 13px;
+  right: 28px;
+  align-items: center;
+}
