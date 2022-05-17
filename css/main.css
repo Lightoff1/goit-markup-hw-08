@@ -522,6 +522,13 @@ img {
   padding-bottom: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+}
 .logo-web-footer {
   color: var(--accent-color);
   font-family: Raleway;
@@ -540,11 +547,18 @@ img {
   letter-spacing: 0.03em;
 }
 
-.first-footer-list {
-  display: block;
-  text-align: center;
+@media screen and (max-width: 767px) {
+  .first-footer-list {
+    display: block;
+    text-align: center;
+  }
 }
-
+@media screen and (min-width: 768px) {
+  .first-footer-list {
+    margin-right: 165px;
+    margin-left: 76px;
+  }
+}
 .adress {
   color: var(--tertiary-text-color);
   font-style: normal;
@@ -577,7 +591,6 @@ img {
 }
 
 .second-footer-list-title {
-  display: block;
   text-align: center;
   color: var(--tertiary-text-color);
   font-weight: 700;
@@ -626,7 +639,6 @@ img {
 
 .form-emeil-label {
   display: block;
-  align-items: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -679,9 +691,8 @@ img {
 .form-submit-footer-icon {
   position: absolute;
   top: 50%;
-  left: 100%;
+  left: 67%;
   transform: translate(-50%, -50%);
-  left: 288px;
   align-items: center;
 }
 
