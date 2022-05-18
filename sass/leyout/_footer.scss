@@ -23,6 +23,7 @@
 @media screen and (min-width: 768px) {
   .footer-list {
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -31,7 +32,6 @@
 
 @media screen and (max-width: 767px) {
   .first-footer-list {
-    // display: block;
     text-align: center;
   }
 }
@@ -54,8 +54,6 @@
   margin-bottom: 9px;
 }
 .footer-contacts {
-  // display: flex;
-  // flex-direction: column;
   .mail,
   .phone {
     display: block;
@@ -77,7 +75,6 @@
 }
 
 .second-footer-list-title {
-  // display: block;
   text-align: center;
   color: var(--tertiary-text-color);
   font-weight: 700;
@@ -120,12 +117,17 @@
   fill: var(--tertiary-text-color);
 }
 
-// /* --------------Форма подписки--------- */
+// -----------------------------------Форма подписки-------------------------------------- */
 
 .form-email-footer {
-  display: block;
   text-align: center;
-  justify-content: center;
+}
+@media screen and (min-width: 768px) and (max-width: 1169px) {
+  .third-footer-list {
+    display: block;
+    width: 450px;
+    margin-left: 166px;
+  }
 }
 
 .form-emeil-label {
@@ -139,6 +141,7 @@
   margin-bottom: 20px;
   color: var(--tertiary-text-color);
 }
+
 .form-emeil-input {
   margin-bottom: 20px;
   padding-left: 16px;
@@ -155,10 +158,12 @@
   border-radius: 4px;
   background-color: transparent;
 }
+
 .form-submit-footer-lable {
   display: flex;
   justify-content: center;
 }
+
 .form-submit-btn {
   width: 200px;
   height: 50px;
