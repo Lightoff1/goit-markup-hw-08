@@ -493,7 +493,7 @@ img {
     margin-bottom: 0px;
   }
 }
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .regular-clients-item {
     width: calc((100% - 0px) / 1);
   }

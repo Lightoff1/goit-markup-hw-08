@@ -1,8 +1,5 @@
 /* ----------------Особенности-------------------- */
-// .features {
-//   padding-top: 94px;
-//   padding-bottom: 94px;
-// }
+
 .features {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -12,15 +9,6 @@
   }
 }
 
-// .feature {
-//   display: flex;
-//   width: 270px;
-//   height: 120px;
-//   align-items: center;
-//   justify-content: center;
-//   background-color: #f5f4fa;
-//   border-radius: 4px;
-// }
 .feature {
   display: flex;
   align-items: center;
@@ -42,15 +30,7 @@
   margin-bottom: 10px;
   margin-top: 30px;
 }
-// .features-menu {
-//   display: flex;
-//   .features-menu__item {
-//     width: 270px;
-//     &:not(:last-child) {
-//       margin-right: 30px;
-//     }
-//   }
-// }
+
 .features-menu {
   @media screen and (min-width: 768px) {
     display: flex;

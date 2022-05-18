@@ -1,10 +1,5 @@
 /* ------------Постоянные клиенты------------- */
 
-// .regular-clients {
-//   text-align: center;
-//   padding-bottom: 94px;
-//   padding-top: 94px;
-// }
 .regular-clients {
   text-align: center;
   padding-bottom: 60px;
@@ -14,10 +9,7 @@
     padding-top: 94px;
   }
 }
-// .regular-clients-list {
-//   display: flex;
-//   justify-content: center;
-// }
+
 .regular-clients-list {
   display: flex;
   flex-wrap: wrap;
@@ -26,24 +18,7 @@
     flex-wrap: nowrap;
   }
 }
-// .regular-clients-link {
-//   transition-property: border-color;
-//   transition-duration: 250ms;
-//   transition-timing-function: var(--timing-function);
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   color: #afb1b8;
-//   border: 1px solid #afb1b8;
-//   border-radius: 4px;
-//   width: 170px;
-//   height: 92px;
-//   .regular-clients-icon {
-//     transition-property: fill;
-//     transition-duration: 250ms;
-//     transition-timing-function: var(--timing-function);
-//   }
-// }
+
 .regular-clients-link {
   transition-property: border-color;
   transition-duration: 250ms;
@@ -90,7 +65,7 @@
       margin-bottom: 0px;
     }
   }
-  @media screen and (min-width: 1170px) {
+  @media screen and (min-width: 1200px) {
     width: calc((100% - 0 * 30px) / 1);
   }
 }
