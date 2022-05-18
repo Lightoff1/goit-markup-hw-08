@@ -17,14 +17,16 @@
 
 <body>
 <!-----------------Шапка с элементами навигации-------------->
-    <!-- <header class="header">
+    <header class="header">
         <nav class="container">
-            <a href="./index.html" class="logo-web header__logo-web link">Web<span class="logo-studio header__logo-studio">Studio</span></a> -->
-            <header class="header">
-                <nav class="container">
-                    <a href="./index.html" class="header__logo-web link">Web<span
-                            class="header__logo-studio">Studio</span></a>
-            <!-- <ul class="nav-menu list">
+            <a href="./index.html" class="header__logo-web link">Web<span
+                class="header__logo-studio">Studio</span></a>                
+                   <button type="button" class="mob-menu-open"><svg class="mob-open-icon" width="40" height="40">
+                        <use href="./images/icons/symbol-defs.svg#icon-menu_40px">
+                        </use>
+                </svg></button> 
+                
+                <!-- <ul class="nav-menu list">
                 <li class="nav-menu__item">
                     <a href="./index.html" class="nav-menu__link link current">Студия</a>
                 </li>
@@ -52,12 +54,39 @@
                         </use>
                     </svg>+38 096 111 11 11
                 </a>
-            </div>
-        </nav> -->
+            </div> -->
+        </nav>
+        
+        <div class="mob-menu">
+            <div class="container">
+            <button type="button" class="mob-menu-close"><svg class="mob-close-icon" width="40" height="40">
+                        <use href="./images/icons/symbol-defs.svg#icon-close_40px">
+                        </use>
+                </svg></button>
+            <ul class="mob-nav-menu list">
+                <li class="mob-nav-menu__item">
+                    <a href="./index.html" class="mob-nav-menu__link link current">Студия</a>
+                </li>
+                <li class="mob-nav-menu__item">
+                    <a href="./portfolio.html" class="mob-nav-menu__link link">Портфолио</a>
+                </li>
+                <li class="mob-nav-menu__item">
+                    <a href="" class="mob-nav-menu__link link">Контакты</a>
+                </li>
+            </ul>
     
+            <div class="mob-header-contacts">    
+                <a href="mailto:info@devstudio.com" class="mob-header-contacts__mail link">
+                    info@devstudio.com</a>
+    
+                <a href="tel:+380961111111" class="mob-header-contacts__phone link">
+                    +38 096 111 11 11</a>
+            </div>    
+        </div>
+        </div>
     </header>
     <main>
-<!-----------------Герой------------------------------------->
+<!-----------------Герой---------------------------------------------------------------->
             <section class="hero">
             <h1 class="hero__title">Эффективные решения <br>для вашего бизнеса</h1>
             
@@ -65,7 +94,7 @@
             
         </section>
 
-<!---------------Секция "особенности"------------------>
+<!---------------Секция "особенности"--------------------------------------------------->
         <section class="features">
             <div class="container">
                 <h2 class="features__title"></h2>
@@ -126,7 +155,7 @@
             </div>
         </section>
 <!----------------Чем мы занимаемся--------------------->
-        <!-- <section class="what-are-we-doing">        
+        <section class="what-are-we-doing">        
             <div class="container">
                 <h2 class="what-are-we-doing-title">Чем мы занимаемся</h2>
                 <ul class="what-are-we-doing-list list">
@@ -150,7 +179,7 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
             
 <!------------------Наша команда---------------------->
         
