@@ -5,7 +5,7 @@
   background-color: #f5f4fa;
   padding-bottom: 60px;
   padding-top: 60px;
-  @media screen and (min-width: 1170px) {
+  @media screen and (min-width: 1200px) {
     padding-bottom: 94px;
     padding-top: 94px;
   }
@@ -20,7 +20,7 @@
   margin-top: 0px;
   margin-bottom: 30px;
 }
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .our-team-title,
   .regular-clients-title {
     font-size: 36px;
@@ -37,7 +37,7 @@
     display: flex;
     flex-wrap: wrap;
   }
-  @media screen and (min-width: 1170px) {
+  @media screen and (min-width: 1200px) {
     flex-wrap: nowrap;
   }
   .item {
@@ -55,7 +55,7 @@
         margin-right: 0px;
       }
     }
-    @media screen and (min-width: 1170px) {
+    @media screen and (min-width: 1200px) {
       margin-bottom: 30px;
       &:not(:last-child) {
         margin-right: 30px;

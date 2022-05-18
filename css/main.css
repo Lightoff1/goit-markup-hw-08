@@ -58,9 +58,9 @@ img {
     width: 768px;
   }
 }
-@media screen and (min-width: 480px) and (min-width: 1170px) {
+@media screen and (min-width: 480px) and (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1200px;
   }
 }
 
@@ -149,7 +149,7 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .features {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -186,7 +186,7 @@ img {
     flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .features-menu {
     flex-wrap: nowrap;
   }
@@ -196,7 +196,7 @@ img {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1169px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .features-menu .features-menu__item {
     width: calc((100% - 30px) / 2);
     margin-right: 30px;
@@ -209,7 +209,7 @@ img {
     margin-bottom: 0px;
   }
 }
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .features-menu .features-menu__item {
     margin-bottom: 0px;
     width: calc((100% - 0px) / 1);
@@ -286,7 +286,7 @@ img {
   padding-bottom: 60px;
   padding-top: 60px;
 }
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .our-team {
     padding-bottom: 94px;
     padding-top: 94px;
@@ -304,7 +304,7 @@ img {
   margin-bottom: 30px;
 }
 
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .our-team-title,
 .regular-clients-title {
     font-size: 36px;
@@ -322,7 +322,7 @@ img {
     flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .our-team-list {
     flex-wrap: nowrap;
   }
@@ -344,7 +344,7 @@ img {
     margin-right: 0px;
   }
 }
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .our-team-list .item {
     margin-bottom: 30px;
   }
@@ -425,7 +425,7 @@ img {
   padding-bottom: 60px;
   padding-top: 60px;
 }
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .regular-clients {
     padding-bottom: 94px;
     padding-top: 94px;
@@ -437,7 +437,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
 }
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .regular-clients-list {
     flex-wrap: nowrap;
   }
@@ -461,7 +461,7 @@ img {
   transition-timing-function: var(--timing-function);
 }
 
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .regular-clients-item + .regular-clients-item {
     margin-left: 30px;
   }
@@ -480,7 +480,7 @@ img {
     margin-bottom: 0px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1169px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .regular-clients-item {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
@@ -562,6 +562,13 @@ img {
     margin-left: 76px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .first-footer-list {
+    text-align: start;
+    margin-right: 70px;
+    margin-left: 0px;
+  }
+}
 .adress {
   color: var(--tertiary-text-color);
   font-style: normal;
@@ -610,6 +617,12 @@ img {
     margin-top: 5px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .second-footer-list-title {
+    margin-top: 12px;
+    text-align: start;
+  }
+}
 .our-soc-links-list {
   display: flex;
   justify-content: center;
@@ -639,19 +652,22 @@ img {
   fill: var(--tertiary-text-color);
 }
 
-.form-email-footer {
-  text-align: center;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1169px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .third-footer-list {
     display: block;
     width: 450px;
     margin-left: 166px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .third-footer-list {
+    display: flex;
+    margin-left: 93px;
+  }
+}
 .form-emeil-label {
   display: block;
+  text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -662,6 +678,11 @@ img {
   color: var(--tertiary-text-color);
 }
 
+@media screen and (min-width: 1200px) {
+  .form-emeil-label {
+    margin-top: 12px;
+  }
+}
 .form-emeil-input {
   margin-bottom: 20px;
   padding-left: 16px;
@@ -704,6 +725,12 @@ img {
   position: relative;
 }
 
+@media screen and (min-width: 1200px) {
+  .submit-btn {
+    margin-top: 48px;
+    margin-left: 12px;
+  }
+}
 .form-submit-footer-icon {
   position: absolute;
   bottom: 13px;
