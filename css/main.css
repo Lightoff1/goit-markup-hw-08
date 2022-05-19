@@ -89,37 +89,6 @@ img {
   }
 }
 
-/* Стилизируем header */
-.header {
-  background-color: var(--tertiary-text-color);
-  border-bottom: 1px solid #ececec;
-}
-.header > .container {
-  display: flex;
-  align-items: center;
-}
-
-/* Логотип */
-.header__logo-web {
-  padding-bottom: 16px;
-  padding-top: 16px;
-  color: var(--accent-color);
-  font-family: Raleway;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-
-.header__logo-studio {
-  padding-bottom: 16px;
-  padding-top: 16px;
-  color: #000000;
-  font-family: Raleway;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-
 .mob-menu {
   position: fixed;
   top: 0;
@@ -142,6 +111,11 @@ img {
   background-color: transparent;
   display: block;
   margin-left: auto;
+}
+.mob-menu-open:hover, .mob-menu-open:focus,
+.mob-menu-close:hover,
+.mob-menu-close:focus {
+  fill: var(--accent-color);
 }
 
 .mob-nav-menu {
@@ -206,6 +180,37 @@ img {
   line-height: 1.22px;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+}
+
+/* Стилизируем header */
+.header {
+  background-color: var(--tertiary-text-color);
+  border-bottom: 1px solid #ececec;
+}
+.header > .container {
+  display: flex;
+  align-items: center;
+}
+
+/* Логотип */
+.header__logo-web {
+  padding-bottom: 16px;
+  padding-top: 16px;
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.header__logo-studio {
+  padding-bottom: 16px;
+  padding-top: 16px;
+  color: #000000;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 /* --------------Элементы навигации---------- */
