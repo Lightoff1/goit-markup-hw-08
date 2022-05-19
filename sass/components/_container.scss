@@ -14,13 +14,22 @@
     }
   }
 }
-// .mob-container {
-//   width: 100%;
-//   padding-left: 40px;
-//   padding-right: 83px;
-//   padding-top: 48px;
-//   padding-bottom: 48px;
+.mob-container {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 48px;
 
-//   margin: 0 auto;
-//   outline: 2px solid tomato;
-// }
+  margin: 0 auto;
+  outline: 2px solid tomato;
+  @media screen and (min-width: 480px) {
+    width: 480px;
+    @media screen and (min-width: 768px) {
+      width: 768px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 1200px;
+    }
+  }
+}

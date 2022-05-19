@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>   
+    <title>Studio</title>   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -57,8 +57,9 @@
             </div> -->
         </nav>
         
-        <div class="mob-menu">
-            <div class="container">
+        <div class="mob-menu is-hidden">
+            <div class="mob-container">
+                <div class="mob-menu-top">
             <button type="button" class="mob-menu-close"><svg class="mob-close-icon" width="40" height="40">
                         <use href="./images/icons/symbol-defs.svg#icon-close_40px">
                         </use>
@@ -74,14 +75,25 @@
                     <a href="" class="mob-nav-menu__link link">Контакты</a>
                 </li>
             </ul>
-    
-            <div class="mob-header-contacts">    
-                <a href="mailto:info@devstudio.com" class="mob-header-contacts__mail link">
-                    info@devstudio.com</a>
-    
+            </div>
+            <div class="mob-menu-bottom">
+            <div class="mob-header-contacts">            
                 <a href="tel:+380961111111" class="mob-header-contacts__phone link">
                     +38 096 111 11 11</a>
-            </div>    
+                <a href="mailto:info@devstudio.com" class="mob-header-contacts__mail link">
+                    info@devstudio.com</a>
+            </div>
+            <ul class="mob-soc-menu-list list">
+                <li class="mob-soc-item__item">
+                    <a href="" class="mob-soc-menu__link link">Instagram</a></li>
+                <li class="mob-soc-item__item">
+                    <a href="" class="mob-soc-menu__link link">Twitter</a></li>
+                <li class="mob-soc-item__item">
+                    <a href="" class="mob-soc-menu__link link">Facebook</a></li>
+                <li class="mob-soc-item__item">
+                    <a href="" class="mob-soc-menu__link link">LinkedIn</a></li>
+                </ul> 
+            </div>   
         </div>
         </div>
     </header>
@@ -501,15 +513,15 @@
     </footer> 
     <!-- <---------------- Модальное окно спрятано -------------------------------> 
 
-        <!-- <div class="modal-bcg is-hidden" data-modal>
+        <div class="modal-bcg is-hidden" data-modal>
             <div class="modal">
                 <button type="button" class="modal-close" data-modal-close><svg class="close-icon" width="20" height="20">
                         <use href="./images/icons/symbol-defs.svg#icon-close-black-18dp-2-1">
                         </use>
-                </svg></button>  -->
+                </svg></button> 
     <!-------------------Модальное окно содержание------------------------------>
 
-                <!-- <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+                <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
                 <form class="modal-form-inputs">
                     <label class="modal-form-field">
                         <span class="modal-form-label">Имя</span>
@@ -552,7 +564,7 @@
                 <div class="modal-form-check">
                     <label class="modal-form-field">
                         <input type="checkbox" class="modal-form-check-input" name="agreement-conditions" placeholder=" "/>                        
-                        <span class="modal-form-agree">Соглашаюсь с рассылкой и принимаю<a class="treaty-link" href="">Условия
+                        <span class="modal-form-agree">Соглашаюсь с рассылкой и принимаю&#160;<a class="treaty-link" href="">Условия
                                 договора</a></span>
                     </label>
                 </div>  
@@ -567,9 +579,10 @@
                 </form>
                 
                           
-            </div> -->
+            </div> 
         </div>
     
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
