@@ -192,7 +192,7 @@ img {
   align-items: center;
 }
 
-/* Логотип */
+/*-------------------------моб---------- */
 .header__logo-web {
   padding-bottom: 16px;
   padding-top: 16px;
@@ -213,7 +213,171 @@ img {
   letter-spacing: 0.03em;
 }
 
-/* --------------Элементы навигации---------- */
+@media screen and (max-width: 767px) {
+  .nav-menu,
+.header-contacts {
+    display: none;
+  }
+}
+/* --------------------планшет----------------------------------- */
+@media screen and (min-width: 768px) {
+  .mob-menu-open {
+    display: none;
+  }
+
+  .header__logo-web,
+.header__logo-studio {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+
+  .nav-menu {
+    display: flex;
+    margin-left: 88px;
+  }
+  .nav-menu .nav-menu__item:not(:last-child) {
+    margin-right: 50px;
+  }
+  .nav-menu .link.current {
+    color: var(--accent-color);
+  }
+
+  .nav-menu__link {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--secondary-text-color);
+  }
+  .nav-menu__link:hover, .nav-menu__link:focus {
+    color: var(--accent-color);
+  }
+
+  .link.current {
+    position: relative;
+  }
+  .link.current::after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0px;
+    bottom: -1px;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+  }
+
+  .header-contacts {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .header-contacts .header-contacts__mail,
+.header-contacts .header-contacts__phone {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+  }
+  .header-contacts .header-contacts__mail:hover, .header-contacts .header-contacts__mail:focus,
+.header-contacts .header-contacts__phone:hover,
+.header-contacts .header-contacts__phone:focus {
+    color: var(--accent-color);
+  }
+
+  .header-contacts__mail {
+    padding-top: 21px;
+    margin-bottom: 10px;
+  }
+
+  .header-contacts__phone {
+    padding-bottom: 21px;
+  }
+
+  .header-contacts__mail-icon,
+.header-contacts__phone-icon {
+    margin-right: 8px;
+    fill: currentColor;
+  }
+
+  .header-contacts__mail-icon {
+    width: 14px;
+    height: 10px;
+  }
+
+  .header-contacts__phone-icon {
+    width: 10px;
+    height: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__logo-web,
+.header__logo-studio {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+
+  .header__logo-web {
+    margin-left: 200px;
+  }
+
+  .nav-menu {
+    margin-left: 93px;
+  }
+
+  .header-contacts {
+    margin-left: auto;
+    display: flex;
+  }
+  .header-contacts .header-contacts__mail,
+.header-contacts .header-contacts__phone {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+  }
+  .header-contacts .header-contacts__mail:hover, .header-contacts .header-contacts__mail:focus,
+.header-contacts .header-contacts__phone:hover,
+.header-contacts .header-contacts__phone:focus {
+    color: var(--accent-color);
+  }
+
+  .header-contacts__mail {
+    margin-right: 30px;
+    margin-bottom: 0px;
+  }
+
+  .header-contacts__mail-icon,
+.header-contacts__phone-icon {
+    margin-right: 8px;
+    fill: currentColor;
+  }
+
+  .header-contacts__mail-icon {
+    width: 14px;
+    height: 10px;
+  }
+
+  .header-contacts__phone-icon {
+    width: 10px;
+    height: 14px;
+  }
+
+  /* --------------Элементы навигации---------- */
+}
 /* ------------Герой----------------- */
 .hero {
   max-width: 1600px;
@@ -1146,7 +1310,7 @@ textarea {
     font-size: 14px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 1199px) {
   .modal-form-agree {
     font-size: 12px;
   }
