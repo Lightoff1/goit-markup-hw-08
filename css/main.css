@@ -213,7 +213,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
   .nav-menu,
 .header-contacts {
     display: none;
@@ -304,6 +304,7 @@ img {
   .header-contacts__mail-icon,
 .header-contacts__phone-icon {
     margin-right: 8px;
+    vertical-align: middle;
     fill: currentColor;
   }
 
@@ -335,6 +336,7 @@ img {
   .header-contacts {
     margin-left: auto;
     display: flex;
+    flex-direction: row;
   }
   .header-contacts .header-contacts__mail,
 .header-contacts .header-contacts__phone {
@@ -362,18 +364,18 @@ img {
 
   .header-contacts__mail-icon,
 .header-contacts__phone-icon {
-    margin-right: 8px;
+    margin-right: 10px;
     fill: currentColor;
   }
 
   .header-contacts__mail-icon {
-    width: 14px;
-    height: 10px;
+    width: 16px;
+    height: 12px;
   }
 
   .header-contacts__phone-icon {
     width: 10px;
-    height: 14px;
+    height: 16px;
   }
 
   /* --------------Элементы навигации---------- */
@@ -755,18 +757,16 @@ img {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .regular-clients-item {
-    width: calc((100% - 30px) / 2);
-    margin-right: 30px;
-    margin-bottom: 30px;
-  }
-  .regular-clients-item:nth-child(2n) {
-    margin-right: 0px;
-  }
-  .regular-clients-item:nth-last-child(-n+2) {
-    margin-bottom: 0px;
-  }
+.regular-clients-item {
+  width: calc((100% - 30px) / 2);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.regular-clients-item:nth-child(2n) {
+  margin-right: 0px;
+}
+.regular-clients-item:nth-last-child(-n+2) {
+  margin-bottom: 0px;
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .regular-clients-item {
@@ -784,6 +784,7 @@ img {
 @media screen and (min-width: 1200px) {
   .regular-clients-item {
     width: calc((100% - 0px) / 1);
+    margin-bottom: 0px;
   }
 }
 
