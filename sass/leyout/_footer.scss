@@ -20,6 +20,9 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+.first-footer-list {
+  text-align: center;
+}
 @media screen and (min-width: 768px) {
   .footer-list {
     display: flex;
@@ -30,11 +33,6 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .first-footer-list {
-    text-align: center;
-  }
-}
 @media screen and (min-width: 768px) {
   .first-footer-list {
     display: flex;
@@ -132,7 +130,7 @@
 
 // -----------------------------------Форма подписки-------------------------------------- */
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .third-footer-list {
     display: block;
     width: 450px;

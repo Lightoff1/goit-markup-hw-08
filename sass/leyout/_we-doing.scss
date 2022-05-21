@@ -1,12 +1,11 @@
 /* -------------Чем мы занимаемся------------------- */
-@media screen and (max-width: 1199px) {
-  .what-are-we-doing {
-    display: none;
-  }
+.what-are-we-doing {
+  display: none;
 }
 
 @media screen and (min-width: 1200px) {
   .what-are-we-doing {
+    display: contents;
     text-align: center;
     padding-bottom: 94px;
   }

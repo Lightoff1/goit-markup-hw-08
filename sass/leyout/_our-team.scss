@@ -54,9 +54,14 @@
       &:nth-child(2n) {
         margin-right: 0px;
       }
+      &:nth-last-child(-n + 2) {
+        margin-bottom: 0px;
+      }
     }
     @media screen and (min-width: 1200px) {
-      margin-bottom: 30px;
+      &:nth-last-child(-n + 4) {
+        margin-bottom: 0px;
+      }
       &:not(:last-child) {
         margin-right: 30px;
       }

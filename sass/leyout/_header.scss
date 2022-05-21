@@ -28,6 +28,10 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+.nav-menu,
+.header-contacts {
+  display: none;
+}
 @media screen and (min-width: 767px) {
   .nav-menu,
   .header-contacts {

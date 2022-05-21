@@ -29,8 +29,8 @@
   color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-
   height: 92px;
+
   .regular-clients-icon {
     transition-property: fill;
     transition-duration: 250ms;
@@ -46,6 +46,7 @@
   width: calc((100% - 1 * 30px) / 2);
   margin-right: 30px;
   margin-bottom: 30px;
+
   &:nth-child(2n) {
     margin-right: 0px;
   }
@@ -53,10 +54,11 @@
     margin-bottom: 0px;
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  @media screen and (min-width: 768px) {
     width: calc((100% - 2 * 30px) / 3);
-    margin-right: 30px;
-    margin-bottom: 30px;
+    &:nth-child(2n) {
+      margin-right: 30px;
+    }
     &:nth-child(3n) {
       margin-right: 0px;
     }
@@ -66,7 +68,11 @@
   }
   @media screen and (min-width: 1200px) {
     width: calc((100% - 0 * 30px) / 1);
+    margin-right: 0px;
     margin-bottom: 0px;
+    &:nth-child(2n) {
+      margin-right: 0px;
+    }
   }
 }
 
