@@ -6,6 +6,7 @@
   height: 100vh;
   width: 100vw;
   z-index: 2;
+
   .mob-container {
     display: flex;
     flex-direction: column;
@@ -28,9 +29,6 @@
 
 .mob-nav-menu {
   display: block;
-  // margin-bottom: 32px;
-  // padding-top: 32px;
-  // padding-bottom: 32px;
   .mob-nav-menu__item:not(:last-child) {
     margin-bottom: 32px;
   }
