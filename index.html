@@ -172,20 +172,50 @@
                 <h2 class="what-are-we-doing-title">Чем мы занимаемся</h2>
                 <ul class="what-are-we-doing-list list">
                     <li class="item">
-                        <div class="what-are-we-doing-wrap">
-                        <img class="what-are-we-doing-image" src="./images/what-are-we-doing/box-1.jpg" alt="руки на клавиатуре" width="370" height="294">
+                        <div class="what-are-we-doing-wrap"
+                            <picture>
+                        <source srcset="
+                    ./images/what-are-we-doing/box-1.jpg            1x,
+                    ./images/what-are-we-doing/box-1-desktop-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                    />                    
+                    <img class="what-are-we-doing-image" 
+                    src="./images/what-are-we-doing/box-1.jpg" 
+                    alt="руки на клавиатуре"/>
+                    </picture>
+                        
                         <p class="what-are-we-doing-sign">Десктопные приложения</p>
                         </div>
                     </li>
                     <li class="item">
                         <div class="what-are-we-doing-wrap">
-                        <img class="what-are-we-doing-image" src="./images/what-are-we-doing/box-2.jpg" alt="ноутбук и смартфон" width="370" height="294">
+                            <picture>
+                        <source srcset="
+                    ./images/what-are-we-doing/box-2.jpg            1x,
+                    ./images/what-are-we-doing/box-2-desktop-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                    />                    
+                    <img class="what-are-we-doing-image" 
+                    src="./images/what-are-we-doing/box-2.jpg" 
+                    alt="ноутбук и смартфон"/>
+                    </picture>
+                        
                         <p class="what-are-we-doing-sign">Мобильные приложения</p>
                         </div>
                     </li>
                     <li class="item">
                         <div class="what-are-we-doing-wrap">
-                        <img class="what-are-we-doing-image" src="./images/what-are-we-doing/box-3.jpg" alt="цветовая палитра на планшете" width="370" height="294">
+                            <picture>
+                        <source srcset="
+                    ./images/what-are-we-doing/box-3.jpg            1x,
+                    ./images/what-are-we-doing/box-3-desktop-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                    />                    
+                    <img class="what-are-we-doing-image" 
+                    src="./images/what-are-we-doing/box-3.jpg" 
+                    alt="цветовая палитра на планшете"/>
+                    </picture>
+                        
                         <p class="what-are-we-doing-sign">Дизайнерские решения</p>
                         </div>
                     </li>
@@ -200,7 +230,28 @@
                 <h2 class="our-team-title">Наша команда</h2>
                 <ul class="our-team-list list">
                 <li class="item">
-                    <img class="team-image" src="./images/our-team/ihor.jpg" alt="Мужчина в очках и рубашке" width="270" height="260">
+                    <picture>
+                        <source srcset="
+                    ./images/our-team/ihor.jpg 1x,
+                    ./images/our-team/ihor-desktop-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                    />
+                    <source srcset="
+                    ./images/our-team/ihor-tab-1x.jpg 1x,
+                    ./images/our-team/ihor-tab-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                    />
+                    <source srcset="
+                    ./images/our-team/ihor-mob-1x.jpg 1x,
+                    ./images/our-team/ihor-mob-2x.jpg 2x"
+                    media="(min-width: 320px)"
+                    />
+                    <img 
+                    class="team-image" 
+                    src="./images/our-team/ihor-mob-1x.jpg" 
+                    alt="Мужчина в очках и рубашке"/>
+                    </picture>                       
+                    
                     <div class="our-team-sign">
                         <h3 class="our-team-name">Игорь Демьяненко</h3>
                         <p class="our-team-spec">Product Designer</p>
@@ -241,8 +292,27 @@
                     </div>
                 </li>
                 <li class="item">
-                    <img class="team-image" src="./images/our-team/olha.jpg" alt="Белокурая девушка в очках и костюме" width="270"
-                        height="260">
+                    <picture>
+                        <source srcset="
+                    ./images/our-team/olha.jpg 1x,
+                    ./images/our-team/olha-desktop-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                    />
+                    <source srcset="
+                    ./images/our-team/olha-tab-1x.jpg 1x,
+                    ./images/our-team/olha-tab-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                    />
+                    <source srcset="
+                    ./images/our-team/olha-mob-1x.jpg 1x,
+                    ./images/our-team/olha-mob-2x.jpg 2x"
+                    media="(min-width: 320px)"
+                    />
+                    <img class="team-image" 
+                    src="./images/our-team/olha-mob-1x.jpg" 
+                    alt="Белокурая девушка в очках и костюме"/>
+                    </picture>
+                    
                     <div class="our-team-sign">
                         <h3 class="our-team-name">Ольга Репина</h3>
                         <p class="our-team-spec">Frontend Developer</p>
@@ -283,7 +353,27 @@
                     </div>
                 </li>
                 <li class="item">
-                    <img class="team-image" src="./images/our-team/nik.jpg" alt="Мужчина в рубашке" width="270" height="260">
+                    <picture>
+                        <source srcset="
+                    ./images/our-team/nik.jpg 1x,
+                    ./images/our-team/nik-desktop-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                    />
+                    <source srcset="
+                    ./images/our-team/nik-tab-1x.jpg 1x,
+                    ./images/our-team/nik-tab-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                    />
+                    <source srcset="
+                    ./images/our-team/nik-mob-1x.jpg 1x,
+                    ./images/our-team/nik-mob-2x.jpg 2x"
+                    media="(min-width: 320px)"
+                    />
+                    <img class="team-image"
+                    src="./images/our-team/nik-mob-1x.jpg" 
+                    alt="Мужчина в рубашке"/>
+                    </picture>
+                    
                     <div class="our-team-sign">
                         <h3 class="our-team-name">Николай Тарасов</h3>
                         <p class="our-team-spec">Marketing</p>
@@ -324,7 +414,27 @@
                     </div>
                 </li>
                 <li class="item">
-                    <img class="team-image" src="./images/our-team/michael.jpg" alt="Мужчина в очках и футболке" width="270" height="260">
+                    <picture>
+                        <source srcset="
+                    ./images/our-team/michael.jpg            1x,
+                    ./images/our-team/michael-desktop-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                    />
+                    <source srcset="
+                    ./images/our-team/michael-tab-1x.jpg 1x,
+                    ./images/our-team/michael-tab-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                    />
+                    <source srcset="
+                    ./images/our-team/michael-mob-1x.jpg 1x,
+                    ./images/our-team/michael-mob-2x.jpg 2x"
+                    media="(min-width: 320px)"
+                    />
+                    <img class="team-image" 
+                    src="./images/our-team/michael-mob-1x.jpg" 
+                    alt="Мужчина в очках и футболке"/>
+                    </picture>
+                    
                     <div class="our-team-sign">
                         <h3 class="our-team-name">Михаил Ермаков</h3>
                         <p class="our-team-spec">UI Designer</p>
