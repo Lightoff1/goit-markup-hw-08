@@ -15,12 +15,16 @@
   justify-content: center;
   background-color: #f5f4fa;
   border-radius: 4px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
+
 .features__title {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 .each-feature__title {
+  text-align: center;
   color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -29,6 +33,9 @@
   text-transform: uppercase;
   margin-bottom: 10px;
   margin-top: 30px;
+  @media screen and (min-width: 768px) {
+    text-align: start;
+  }
 }
 
 .features-menu {
